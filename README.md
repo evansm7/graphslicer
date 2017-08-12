@@ -5,6 +5,8 @@ This script generates SVG outlines of vertical slices through a 3D function, whi
 
 It is recommended to get a machine (such as a laser cutter) to do the dirty work, but it has been demonstrated that printing the slices and cutting them out by hand also works.  This works better if you don't get bored easily, and/or you choose to use fairly small number of slices.
 
+Example creations using this script can be seen at [http://axio.ms](http://axio.ms).
+
 The default configuration will generate 240 slices that are 50mm wide.  When used with 180gsm card (and packed tightly) this gives a cuboid approximately 50x50mm (and 30mm tall).
 
 Each slice has mounting holes in consistent locations to leverage mechanical mounting techniques in order to generate a very straight stack to maximise end-user experience.  Each slice is also marked using a set of notches to show, in binary, the slice's sequence number.  This is very useful to re-order the slices when they get mixed up when removing them from the laser cutter, or fall on the floor, or blow away.
